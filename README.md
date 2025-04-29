@@ -32,7 +32,7 @@ i) Using Averaging Filter
 import cv2
 import matplotlib.pyplot as plt
 import numpy as np
-image1=cv2.imread("dog.jpg")
+image1=cv2.imread("EAGLE.jpg")
 image2=cv2.cvtColor(image1,cv2.COLOR_BGR2RGB)
 kernel=np.ones((11,11),np.float32)/169
 image3=cv2.filter2D(image2,-1,kernel)
